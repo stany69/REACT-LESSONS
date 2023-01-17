@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.skill_elem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 250px;
+   
+    border-radius: 15px;
+}
+
+.active{
+    color:orange;
+}
+.not_active{
+    color:black;
+}
+.stars_num{
+    display: none;
+}
+
+
+ .stars_set{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
